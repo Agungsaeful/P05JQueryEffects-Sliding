@@ -1,0 +1,21 @@
+#panel, #flip {
+    border: solid 1px #c3c3c3;
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    color: dark;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+#panel {
+    padding: 50px;
+    display: none;
+  }
+
+body {
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover
+}

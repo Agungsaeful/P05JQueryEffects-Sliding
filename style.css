@@ -1,17 +1,29 @@
-#panel, #flip {
+.judul {
     border: solid 1px #c3c3c3;
     background-color:lightgoldenrodyellow;
+    font-size: 20px;
     text-align: center;
+    font-style: italic;
     color: dark;
     padding: 8px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
   }
   
-#panel {
+.isi {
     padding: 50px;
     display: none;
+    border: solid 1px #c3c3c3;
+    background-color:lightgoldenrodyellow;
+    font-size: 20px;
+    text-align: center;
+    color: dark;
+    margin-left: 70px;
+    margin-right: 70px;
   }
 
 body {

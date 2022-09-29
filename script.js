@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#flip").click(function(){
-      $("#panel").slideToggle("slow");
+    $(".judul").click(function(){
+      $(".isi").slideToggle("slow");
     });
   });
